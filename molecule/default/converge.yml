@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include nginx-test-1"
+      include_role:
+        name: "nginx-test-1"
